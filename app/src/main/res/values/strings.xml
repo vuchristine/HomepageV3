@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomepageV3</string>
+
+    <!-- Strings for signing in and registering -->
+    <string name="email">Enter Email</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signin">Sign In</string>
+    <string name="cancel">Cancel</string>
+    <string name="launch_signin_dialog">Sign In</string>
+    <string name="launch_register_dialog">Register</string>
+
+</resources>
