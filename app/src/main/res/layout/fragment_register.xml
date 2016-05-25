@@ -7,26 +7,35 @@
 
     <!-- email -->
     <EditText
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email" />
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
 
     <!-- username -->
     <EditText
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/username" />
+        android:hint="@string/username" />
 
     <!-- password -->
     <EditText
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/password" />
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:text="@string/text"/>
 
     <!-- confirm password -->
     <EditText
+        android:id="@+id/confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/confirm_password" />
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:text="@string/text"/>
 
 </LinearLayout>

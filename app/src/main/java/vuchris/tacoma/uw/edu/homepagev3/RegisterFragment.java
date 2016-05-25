@@ -34,6 +34,8 @@ public class RegisterFragment extends DialogFragment {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
                         // sign in the user ...
+                        //if both passwords matched and email is valid
+                        //should save email, username, and password to database
                     }
                 })
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {

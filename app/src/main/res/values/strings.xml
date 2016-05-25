@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">HomepageV3</string>
 
-    <!-- Strings for signing in and registering -->
+    <!-- strings for signing in and registering -->
     <string name="email">Enter Email</string>
     <string name="username">Enter Username</string>
     <string name="password">Enter Password</string>
@@ -11,4 +11,27 @@
     <string name="launch_signin_dialog">Sign In</string>
     <string name="launch_register_dialog">Register</string>
 
+    <string name="title_activity_home_page">HomePageActivity</string>
+
+    <!-- strings for homepage -->
+    <string name="score">Score: </string>
+    <string name="launch_instructions">Instructions</string>
+
+    <!-- strings for instructions -->
+    <string name="title_fragment_instructions">Instructions</string>
+    <string name="heading_instructions">Rules to follow by:</string>
+    <string name="game_rule1">Player has to guess which letters fits in the blanks of the word.</string>
+    <string name="game_rule2">Each letter can only be used once.</string>
+    <string name="game_rule3">If the player guesses the letter incorrectly, a part of the body will be hanging.</string>
+    <string name="game_rule4">The player has a certain amount of guesses before the whole body is hanging meaning the game is over.</string>
+    <string name="game_rule5">The player can only have one chance to guess the word in its entirety.</string>
+    <string name="game_rule6">If the player incorrectly guess the word, they automatically lose the game.</string>
+    <string name="game_rule7">There will be a scoring system to keep track of your game score.</string>
+
+    <string name="text">Match</string>
+
+    <!-- strings for game -->
+    <string name="launch_game">Play the Game</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
