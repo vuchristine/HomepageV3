@@ -16,6 +16,8 @@
     <!-- strings for homepage -->
     <string name="score">Score: </string>
     <string name="launch_instructions">Instructions</string>
+    <string name="launch_game">Play the Game</string>
+    <string name="launch_invite">Invite a Friend</string>
 
     <!-- strings for instructions -->
     <string name="title_fragment_instructions">Instructions</string>
@@ -31,7 +33,7 @@
     <string name="text">Match</string>
 
     <!-- strings for game -->
-    <string name="launch_game">Play the Game</string>
+    <string name="game_welcome">Welcome to Hangman</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
