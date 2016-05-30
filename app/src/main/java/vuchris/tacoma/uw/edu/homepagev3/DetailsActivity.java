@@ -8,12 +8,17 @@ import android.widget.TextView;
 
 import com.google.android.gms.appinvite.AppInviteReferral;
 
-public class InviteDetailsActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_invite_details);
+        setContentView(R.layout.activity_details);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
 
         Intent intent = getIntent();
         if (AppInviteReferral.hasReferral(intent)) {

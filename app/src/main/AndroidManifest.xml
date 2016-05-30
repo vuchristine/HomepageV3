@@ -21,7 +21,11 @@
         </activity>
         <activity android:name=".GameActivity" />
         <activity android:name=".HomePageActivity" />
-        <activity android:name=".InviteDetailsActivity">
+        <activity
+            android:name=".InviteActivity"
+            android:label="@string/title_activity_invite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
