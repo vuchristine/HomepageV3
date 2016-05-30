@@ -20,11 +20,13 @@ import com.google.android.gms.common.api.ResultCallback;
 
 public class InviteActivity extends AppCompatActivity {
 
+    //variables
     private static final
     String INVITATION_TITLE = "Call your friends",
             INVITATION_MESSAGE = "Hey! Want to invite your friends for this \"awesome\" app? :)",
             INVITATION_CALL_TO_ACTION = "Share";
-    
+
+    //invite button
     Button button;
 
     public static final int REQUEST_INVITE = 12;
